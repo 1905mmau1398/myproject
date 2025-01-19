@@ -1,0 +1,39 @@
+//Color Variables
+
+$primary-color: #622A0F;
+$primary-hover-color: #964B00;
+$succes-color: #00ff00;
+$succes-color-hover: #00ff00;
+$title-color: #000000;
+$bg-color: wheat;
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: $bg-color;
+}
+
+.content
+{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    h1{
+        color: $primary-color;
+    }
+    h4{
+        color: #666;
+    }
+    table{ 
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+}
+}
