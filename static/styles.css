@@ -86,4 +86,10 @@ input[type= "checkbox"]{
 th:first-child, td:first-child {
   width: 1px;
 }
+@media (max-width: 600px) {
+  .content { padding: 20px; } 
+  .content table th, .content table td { padding: 8px; font-size: 15px; } 
+  .content a { padding: 5px; font-size: 12px; } 
+  .content table th:first-child, .content table td:first-child { padding-right: 40px;}
+}
 /*# sourceMappingURL=styles.css.map */
